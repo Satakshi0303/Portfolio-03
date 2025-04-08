@@ -266,3 +266,27 @@ nav ul li a:hover {
   line-height: 1.7;
   color: #444;
 }
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
+
